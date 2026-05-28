@@ -1,15 +1,15 @@
 cmake_minimum_required(VERSION 3.16)
 
 project(wallpapers)
-set(PROJECT_VERSION "6.7.80")
+set(PROJECT_VERSION "6.6.91")
 
 include(WriteBasicConfigVersionFile)
 include(FeatureSummary)
 
-set(KF6_MIN_VERSION "6.18.0")
-set(KDE_COMPILERSETTINGS_LEVEL "6.0")
+set(KF5_MIN_VERSION "5.102.0")
+set(KDE_COMPILERSETTINGS_LEVEL "5.82")
 
-find_package(ECM ${KF6_MIN_VERSION} REQUIRED NO_MODULE)
+find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} )
 
 include(KDEInstallDirs)
