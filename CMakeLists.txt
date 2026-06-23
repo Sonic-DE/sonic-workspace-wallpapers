@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 project(wallpapers)
-set(PROJECT_VERSION "6.7.0")
+set(PROJECT_VERSION "6.7.1")
 
 include(WriteBasicConfigVersionFile)
 include(FeatureSummary)
@@ -54,3 +54,4 @@ install(DIRECTORY Nuvole DESTINATION ${KDE_INSTALL_WALLPAPERDIR})
 install(DIRECTORY Coast DESTINATION ${KDE_INSTALL_WALLPAPERDIR})
 install(DIRECTORY Orionids DESTINATION ${KDE_INSTALL_WALLPAPERDIR})
 install(DIRECTORY Sub-Arctic DESTINATION ${KDE_INSTALL_WALLPAPERDIR})
+
