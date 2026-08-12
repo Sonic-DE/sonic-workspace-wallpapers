@@ -1,7 +1,7 @@
-# Plasma Workspace Wallpapers
+# SonicDE Workspace Wallpapers
 
-Plasma Workspace Wallpapers provides additional wallpapers for Plasma.
+SonicDE Workspace Wallpapers provides additional wallpapers for SonicDE.
 
 ## Next
 
-The current default wallpaper is not included in this repository, but in [Breeze](https://invent.kde.org/plasma/breeze/-/tree/master/wallpapers/Next). When a new default wallpaper is selected, the previous default will be moved to this repository.
+The current default wallpaper is not included in this repository, but in [Silver](https://github.com/Sonic-DE/sonic-silver/tree/master/wallpapers/Silver). When a new default wallpaper is selected, the previous default will be moved to this repository.
