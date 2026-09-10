@@ -6,8 +6,8 @@ set(PROJECT_VERSION "6.7.5")
 include(WriteBasicConfigVersionFile)
 include(FeatureSummary)
 
-set(KF5_MIN_VERSION "5.102.0")
-set(KDE_COMPILERSETTINGS_LEVEL "5.82")
+set(KF6_MIN_VERSION "6.30.0")
+set(KDE_COMPILERSETTINGS_LEVEL "6.0")
 
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} )
